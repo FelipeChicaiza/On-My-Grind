@@ -4,8 +4,6 @@ import './App.css'
 import BaristaForm from './Components/BaristaForm';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div>
       <div className='title-container'>
@@ -13,7 +11,7 @@ function App() {
         <p>So you think you can barista? Let's put that to the test...</p>
       </div>
       <BaristaForm/>
-      </div>
+    </div>
   )
 }
 

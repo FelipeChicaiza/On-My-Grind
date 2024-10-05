@@ -1,9 +1,11 @@
 import React, {Component, useState} from "react";
+import RecipeChoices from "./RecipeChoices";
+
 const BaristaForm = () => {
     const [inputs, setInputs] = useState({
         'temperature': '',
         'milk': '',
-        'syrup':'',
+        'syrup': '',
         'blended': '',
     });
 
@@ -15,19 +17,49 @@ const BaristaForm = () => {
     }
 
     const onNewDrink = () => {
-    
     };
     
     const onCheckAnswer = () => {
       
     };
   return (
-    <div>
+    <div className="App">
+        <h2>Hi, I'd like to order a:</h2>
         <form >
-            <h2>Hi, I'd like to order a:</h2>
+            <h3>Temperature</h3>
+            <div className="answer-space" >
+                {inputs["temperature"]} 
+            </div>
+            <RecipeChoices
+                handleChange={(e) => setInputs((prevState) => ({
+                    ...prevState,
+                    [e.target.name]: e.target.value,
+                }))}
+                label="temperature"
+                choices={ingredients["temperature"]}
+                checked={inputs["temperature"]}
+            />
+            <h3>Syrup</h3>
+            <div className="answer-space" >
+                {inputs["temperature"]} 
+            </div>
+            <RecipeChoices
+                handleChange={(e) => setInputs((prevState) => ({
+                    ...prevState,
+                    [e.target.name]: e.target.value,
+                }))}
+                label="temperature"
+                choices={ingredients["temperature"]}
+                checked={inputs["temperature"]}
+            />
         </form>
 
-        <button type="submit" className="button submit" onClick={onCheckAnswer}>
+
+
+        <button
+            type="submit" 
+            className="button submit" 
+            onClick={onCheckAnswer}>
             Check Answer
         </button>
 
@@ -37,7 +69,7 @@ const BaristaForm = () => {
             onClick={onNewDrink}>
             New Drink
         </button>
-        </div>
+    </div>
   );
   
 };
