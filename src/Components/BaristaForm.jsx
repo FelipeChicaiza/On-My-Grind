@@ -66,6 +66,10 @@ const BaristaForm = () => {
           setCheckedBlended('');
     };
 
+    //capitalizing all the letters in the drink name
+    const capitalize = (string) => {
+        return string.charAt(0).toUpperCase() + string.slice(1);
+    }
     
 
 
@@ -75,7 +79,7 @@ const BaristaForm = () => {
         <h2>Hi, I'd like to order a:</h2>
         </div>
         <div className="drink-container">
-            <h2 className="mini-header">{currentDrink}</h2>
+            <h2 className="mini-header">{capitalize(currentDrink)}</h2>
             <button
                 type="new-drink-button"
                 className="button newdrink"

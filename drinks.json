@@ -1,7 +1,7 @@
 {
   "drinks": [
     {
-      "name": "almond mocha blended cold brew",
+      "name": "Almond mocha blended cold brew",
       "ingredients": {
         "temp": "cold",
         "syrup": "mocha",
@@ -10,7 +10,7 @@
       }
     },
     {
-      "name": "doubleshot espresso",
+      "name": "Doubleshot espresso",
       "ingredients": {
         "temp": "hot",
         "syrup": "none",
@@ -19,7 +19,7 @@
       }
     },
     {
-      "name": "flat white",
+      "name": "Flat white",
       "ingredients": {
         "temp": "hot",
         "syrup": "none",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "name": "salted caramel frappuccino",
+      "name": "Salted caramel frappuccino",
       "ingredients": {
         "temp": "cold",
         "syrup": "caramel",
@@ -37,7 +37,7 @@
       }
     },
     {
-      "name": "iced blonde oat caffe latte",
+      "name": "Sced blonde oat caffe latte",
       "ingredients": {
         "temp": "cold",
         "syrup": "none",
@@ -46,7 +46,7 @@
       }
     },
     {
-      "name": "nitro cold brew",
+      "name": "Nitro cold brew",
       "ingredients": {
         "temp": "cold",
         "syrup": "none",
@@ -55,7 +55,7 @@
       }
     },
     {
-      "name": "iced almond pink drink",
+      "name": "Iced almond pink drink",
       "ingredients": {
         "temp": "cold",
         "syrup": "none",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "name": "eggnog latte refresher",
+      "name": "Eggnog latte refresher",
       "ingredients": {
         "temp": "cold",
         "syrup": "vanilla",
@@ -73,7 +73,7 @@
       }
     },
     {
-      "name": "eggnog latte",
+      "name": "Eggnog latte",
       "ingredients": {
         "temp": "hot",
         "syrup": "other",
