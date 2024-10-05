@@ -15,6 +15,7 @@ const RecipeChoices = ({ handleChange, label, choices, checked }) => {
                             onChange={handleChange}
                             checked={checked === choice}
                         />
+                        {choice}
                     </li>
                 ))}
             </div>
